@@ -1,11 +1,6 @@
 这是一个商户端的系统文件，部署后无需修改，
 --在宝塔创建网站-上传文件-打开设置在配置文件中添加
-  # API反向代理到后端
-location /api/ {
-    proxy_pass https://你的服务端地址/api/;
-    proxy_set_header Host wjfserver.paywjf.com;
-    proxy_set_header X-Real-IP $remote_addr;
-    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header X-Forwarded-Proto $scheme;
-    proxy_ssl_server_name on;
-}
+  ## 打包下载
+  全部打包下载含服务端，数据库，商户端，用户前端，视频安装教程。。。
+  通过网盘分享的文件：B2B钱包仿OK钱包-仿EZ钱包源码-发布版.zip
+链接: https://pan.baidu.com/s/1fhAoDP8bAw6YtSDQr_gMMg?pwd=jven 提取码: jven 
